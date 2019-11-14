@@ -1,0 +1,39 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1024px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+a {
+  color: blue;
+  padding: 0.5em;
+}
+
+.header img {
+  border-radius: 50%;
+}
+
+.connect ul {
+  list-style: none;
+  display: inline;
+}
+.connect ul li {
+  display: inline;
+  list-style: none;
+}
+.connect ul li a {
+  text-decoration: none;
+}
+
+input {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */

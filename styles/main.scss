@@ -1,0 +1,40 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+// }
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+}
+.container {
+    max-width: 1024px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+a {
+    color: blue;
+    padding: 0.5em;
+}
+.header {
+    img {
+        border-radius: 50%;
+    }
+}
+.connect {
+    ul {
+        list-style: none;
+        display: inline;
+        li {
+            display: inline;
+            list-style: none;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+input {
+    display: none;
+}
