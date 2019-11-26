@@ -25,20 +25,9 @@
             <ul>Contact me
                     <li><a target="_blank" href="https://t.me/stevanlohja">Telegram</a></li>
                     <li><a target="_blank" href="img/qrcode.png">WeChat</a></li>
-                    <li><a onclick="copyEmail()" href="#">Email</a></li>
+                    <li><a target="_blank" href="mailto:stevanio@protonmail.com">Email</a></li>
             </ul>
         </div>
     </div>
-    <input value="stevanio@protonmail.com" id="email">
-
-    <script>
-            function copyEmail() {
-              var copyText = document.getElementById("email");
-              copyText.select();
-              copyText.setSelectionRange(0, 99999)
-              document.execCommand("copy");
-              alert("Copied email to clipboard: " + copyText.value);
-            }
-    </script>
 </body>
 </html>
